@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4775BF"/>
+      <stop offset="1" stop-color="#3D94A3"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E9EFF7"/>
+    </linearGradient>
+    <linearGradient id="soft" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4775BF" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#3D94A3" stop-opacity="0.12"/>
+    </linearGradient>
+  </defs>
+  <!-- macOS アイコングリッド: 1024 のキャンバスに 824 の本体 -->
+  <rect x="100" y="100" width="824" height="824" rx="185" fill="url(#paper)"/>
+  <rect x="101" y="101" width="822" height="822" rx="184" fill="none" stroke="#D5DEEA" stroke-width="2"/>
+  <rect x="180" y="180" width="664" height="664" rx="120" fill="url(#soft)" stroke="url(#brand)" stroke-width="22" stroke-dasharray="58 36" stroke-linecap="round"/>
+  <circle cx="512" cy="512" r="196" fill="url(#brand)"/>
+  <path d="M 512 392 L 512 556" stroke="#FFFFFF" stroke-width="40" stroke-linecap="round"/>
+  <path d="M 440 488 L 512 560 L 584 488" fill="none" stroke="#FFFFFF" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 412 540 L 412 598 Q 412 628 442 628 L 582 628 Q 612 628 612 598 L 612 540" fill="none" stroke="#FFFFFF" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

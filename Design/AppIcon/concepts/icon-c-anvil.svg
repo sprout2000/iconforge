@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4775BF"/>
+      <stop offset="1" stop-color="#3D94A3"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E9EFF7"/>
+    </linearGradient>
+  </defs>
+  <!-- macOS アイコングリッド: 1024 のキャンバスに 824 の本体 -->
+  <rect x="100" y="100" width="824" height="824" rx="185" fill="url(#brand)"/>
+  <g transform="translate(36 30)">
+    <path d="M 300 440 L 740 440 L 740 520 Q 700 545 640 560 L 640 640 L 720 700 L 720 740 L 360 740 L 360 700 L 440 640 L 440 560 Q 330 540 240 470 Q 260 445 300 440 Z" fill="#FFFFFF"/>
+    <rect x="300" y="440" width="440" height="22" fill="#FFFFFF" opacity="0.6"/>
+  </g>
+  <path d="M 574 268 Q 574 330 636 330 Q 574 330 574 392 Q 574 330 512 330 Q 574 330 574 268 Z" fill="#D99140"/>
+  <path d="M 700 250 Q 700 286 736 286 Q 700 286 700 322 Q 700 286 664 286 Q 700 286 700 250 Z" fill="#D66985"/>
+  <path d="M 450 272 Q 450 300 478 300 Q 450 300 450 328 Q 450 300 422 300 Q 450 300 450 272 Z" fill="#FFFFFF"/>
+  <path d="M 786 370 Q 786 392 808 392 Q 786 392 786 414 Q 786 392 764 392 Q 786 392 786 370 Z" fill="#54A86E"/>
+</svg>

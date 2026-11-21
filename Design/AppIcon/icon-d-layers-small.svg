@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4775BF"/>
+      <stop offset="1" stop-color="#3D94A3"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E9EFF7"/>
+    </linearGradient>
+    <linearGradient id="soft" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4775BF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#3D94A3" stop-opacity="0.18"/>
+    </linearGradient>
+  </defs>
+  <!-- macOS アイコングリッド: 1024 のキャンバスに 824 の本体 -->
+  <rect x="100" y="100" width="824" height="824" rx="185" fill="url(#paper)"/>
+  <rect x="101" y="101" width="822" height="822" rx="184" fill="none" stroke="#D5DEEA" stroke-width="2"/>
+  <!-- 16 / 32 px 用の簡略版: 点線をやめ、線を太く、要素を大きくしている -->
+  <rect x="196" y="196" width="470" height="470" rx="110" fill="url(#soft)" stroke="#4775BF" stroke-opacity="0.6" stroke-width="30" transform="rotate(-8 431 431)"/>
+  <rect x="330" y="330" width="500" height="500" rx="120" fill="url(#brand)" transform="rotate(6 580 580)"/>
+  <rect x="470" y="470" width="220" height="220" rx="56" fill="none" stroke="#FFFFFF" stroke-width="56" transform="rotate(6 580 580)"/>
+  <circle cx="770" cy="770" r="112" fill="#54A86E" stroke="#FFFFFF" stroke-width="22"/>
+  <path d="M 716 772 L 756 812 L 826 734" fill="none" stroke="#FFFFFF" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

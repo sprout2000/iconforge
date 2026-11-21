@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Xcode: per-user settings (keep xcshareddata/ for the shared scheme)
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.hmap
+
+# Xcode: build output
+DerivedData/
+build/
+*.xcarchive
+*.dSYM
+*.dSYM.zip
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.resolved
+
+# Test results
+*.xcresult
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Generated icons from trying the app on itself
+*.ico
+*.icns

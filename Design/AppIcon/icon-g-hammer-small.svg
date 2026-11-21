@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4775BF"/>
+      <stop offset="1" stop-color="#3D94A3"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E9EFF7"/>
+    </linearGradient>
+  </defs>
+  <!-- macOS アイコングリッド: 1024 のキャンバスに 824 の本体 -->
+  <rect x="100" y="100" width="824" height="824" rx="185" fill="url(#paper)"/>
+  <rect x="101" y="101" width="822" height="822" rx="184" fill="none" stroke="#D5DEEA" stroke-width="2"/>
+  <!-- 16 / 32 px 用の簡略版: 円とイラストを大きくし、小さな火花を省いている -->
+  <circle cx="512" cy="512" r="370" fill="url(#brand)"/>
+  <g transform="translate(512 512) scale(1.5) translate(-505 -540)">
+  <rect x="352" y="560" width="150" height="150" rx="38" fill="#FFFFFF"/>
+  <g transform="translate(560 470) rotate(-135)">
+    <rect x="-24" y="30" width="48" height="120" rx="24" fill="#FFFFFF"/>
+    <rect x="-106" y="-50" width="212" height="100" rx="26" fill="#FFFFFF"/>
+  </g>
+  <path d="M 380 404 Q 380 470 446 470 Q 380 470 380 536 Q 380 470 314 470 Q 380 470 380 404 Z" fill="#D99140"/>
+  </g>
+</svg>

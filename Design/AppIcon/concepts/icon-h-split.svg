@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4775BF"/>
+      <stop offset="1" stop-color="#3D94A3"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E9EFF7"/>
+    </linearGradient>
+    <linearGradient id="ico" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4775BF"/>
+      <stop offset="1" stop-color="#3D94A3"/>
+    </linearGradient>
+    <linearGradient id="icns" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8A63C7"/>
+      <stop offset="1" stop-color="#D66985"/>
+    </linearGradient>
+  </defs>
+  <!-- macOS アイコングリッド: 1024 のキャンバスに 824 の本体 -->
+  <rect x="100" y="100" width="824" height="824" rx="185" fill="url(#paper)"/>
+  <rect x="101" y="101" width="822" height="822" rx="184" fill="none" stroke="#D5DEEA" stroke-width="2"/>
+  <path d="M 312 212 L 712 212 Q 812 212 812 312 L 812 312 L 212 712 L 212 312 Q 212 212 312 212 Z" fill="url(#ico)"/>
+  <path d="M 812 312 L 812 712 Q 812 812 712 812 L 312 812 Q 212 812 212 712 Z" fill="url(#icns)"/>
+  <path d="M 212 712 L 812 312" stroke="#FFFFFF" stroke-width="16"/>
+  <rect x="392" y="392" width="240" height="240" rx="60" fill="none" stroke="#FFFFFF" stroke-width="40"/>
+</svg>
